@@ -7,11 +7,11 @@ function App() {
       <LightRays
         raysOrigin="top-center"
         raysColor="#ffffff"
-        raysSpeed={1.5}
+        raysSpeed={2.5}
         lightSpread={0.4}
-        rayLength={1.2}
+        rayLength={4.4}
         followMouse={true}
-        mouseInfluence={0.4}
+        mouseInfluence={0.8}
         noiseAmount={0.2}
         distortion={0.044}
         className="custom-rays"
